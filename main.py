@@ -76,6 +76,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy',
 history = model.fit(X_tr, np.array(y_tr), batch_size=BATCH_SIZE, epochs=EPOCHS,
                     validation_split=0.2, verbose=2)
 
+
 # Eval
 pred_cat = model.predict(X_te)
 pred = np.argmax(pred_cat, axis=-1)
