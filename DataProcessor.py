@@ -85,7 +85,7 @@ class DataProcessor:
             tagName = tag.tag
 
         text = ''.join(tag.itertext())
-        tokenList = text_to_word_sequence(text, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~\t\n', lower=False)
+        tokenList = text_to_word_sequence(text, filters='!"#$%&()*+,-./:;<=>?@[\]^_`{|}~\t\n')
 
         for index, token in enumerate(tokenList):
             """

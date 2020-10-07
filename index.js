@@ -62,6 +62,7 @@ class Prediction {
 			// Convert words to integers
 			wordArray.forEach(function (word) {
 				tokenizedSentence.push(word);
+				word = word.toLowerCase();
 				if (word2idx.hasOwnProperty(word)) {
 					vectorizedSentence.push(word2idx[word]);
 				} else {

@@ -1,18 +1,1 @@
-{
-  "1": "id_report",
-  "2": "page",
-  "3": "journal",
-  "4": "id_arxiv",
-  "5": "author",
-  "6": "container_title",
-  "7": "id_doi",
-  "8": "volume",
-  "9": "id_isbn",
-  "10": "id_issn",
-  "11": "id_other",
-  "12": "date",
-  "13": "title",
-  "14": "publisher",
-  "15": "url",
-  "0": "pad"
-}
+{"1": "page", "2": "container_title", "3": "author", "4": "id_issn", "5": "journal", "6": "id_report", "7": "id_isbn", "8": "id_doi", "9": "id_other", "10": "volume", "11": "date", "12": "id_arxiv", "13": "title", "14": "url", "15": "publisher", "0": "pad"}
