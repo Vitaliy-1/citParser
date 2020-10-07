@@ -4,7 +4,7 @@ CIT_PAD_LABEL = 'pad';
 
 class Prediction {
 	static PATH_TO_VOCAB = 'model4_js/vocab/word2idx.json';
-	static PATH_TO_MODEL = 'http://localhost:63342/citParser/model4_js/model.json';
+	static PATH_TO_MODEL = 'model4_js/model.json';
 	static PATH_TO_LABELS = 'model4_js/vocab/idx2tag.json';
 	
 	constructor(word2idx, idx2tag, loadedModel) {
