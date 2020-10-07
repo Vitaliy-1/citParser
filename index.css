@@ -1,0 +1,26 @@
+form, main {
+	margin-top: 40px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+main {
+	width: 100%;
+}
+
+table {
+	display: block;
+	overflow: auto;
+	margin-top: 40px;
+}
+
+td {
+	padding: 2px;
+	border: 1px solid #ddd;
+}
