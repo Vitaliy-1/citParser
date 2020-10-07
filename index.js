@@ -116,7 +116,6 @@ async function makePrediction() {
 
 function showPrediction() {
 	makePrediction().then(predicted => {
-		console.log(predicted);
 		let oldWrapper = document.getElementById('resultsWrapper');
 		if (oldWrapper) {
 			oldWrapper.remove();
